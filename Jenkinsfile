@@ -12,7 +12,7 @@ pipeline {
         stage('Run Python Script') {
             steps {
                 // Run your Python script
-                bat 'python math_operations.py'
+                bat 'python path/to/math_operations.py'
             }
         }
 
